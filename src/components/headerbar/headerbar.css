@@ -1,0 +1,56 @@
+.header{
+    width :100%;
+    height:50px;
+    background-color: white;
+    position: sticky;
+    top: 0;
+    display: flex;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    z-index:999 ;
+}
+.headleft,.headright{
+    flex: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.headmid{
+    flex:6;
+}
+.headIcons{
+    font-size: 20px;
+    margin-right: 10px;
+    
+    cursor: pointer;
+
+}
+
+.headimg{
+    width:40px;
+    height:40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.itemlist{
+    display: flex;
+    justify-content: center;
+    margin: 00;
+    padding: 0;
+    list-style:none ;
+}
+
+.headitems{
+   margin-right: 20px;
+   font-size: 18px;
+   font-weight: 300;
+   cursor: pointer;
+
+}
+.headSearch{
+    font-size: 18px;
+    cursor: pointer;
+    margin-left: 18 px;
+    
+}

@@ -1,0 +1,63 @@
+.postpage{
+    flex:9;
+}
+.singlepost {
+    padding: 20px;
+    padding-right: 0;
+  }
+  
+  .singleimg {
+    width: 100%;
+    height: 300px;
+    border-radius: 5px;
+    object-fit: cover;
+  }
+  
+  .singletitle {
+    text-align: center;
+    margin: 10px;
+    font-size: 28px;
+    font-family: "Lora", sans-serif;
+  }
+  
+  .singleedit {
+    float: right;
+    font-size: 16px;
+  }
+  
+  .singleicon {
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  
+  .singleicon:first-child {
+    color: teal;
+  }
+  .singleicon:last-child {
+    color: tomato;
+  }
+  
+  .singleinfo {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    color: #be9656;
+    font-family: "Varela Round", Arial, Helvetica, sans-serif;
+  }
+  
+  .singleauthor{
+    margin-left: 5px;
+  }
+  
+  .singledesc {
+    color: #666;
+    font-size: 18px;
+    line-height: 25px;
+  }
+  
+  .singledesc::first-letter {
+    margin-left: 20px;
+    font-size: 30px;
+    font-weight: 600;
+  }
